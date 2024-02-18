@@ -12,6 +12,7 @@ df['model'].value_counts()
 df['price'].value_counts()
 df['ram'].value_counts()
 df['battery'].value_counts()
+#matplotlib
 import matplotlib.pyplot as plt
 import seaborn as sns
 d=df['price'].value_counts().plot(kind='box')
